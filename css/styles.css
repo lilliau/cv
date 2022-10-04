@@ -12,7 +12,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Playfair Display", serif;
+  font-family: "Copperplate", serif;
   color: #000;
 }
 
@@ -36,10 +36,10 @@ sup {
 /* Customize some of the sizing variables */
 :root {
   --sidebar-width: 12rem; /* Shrink sidebar width  */
-  --sidebar-background-color: #f7fbff; /* Make sidebar blue */
+  --sidebar-background-color: #d4d5d6; /* Make sidebar gray */
   --sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
   --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
-  --decorator-border: 2px solid #bdd7e7; /* Make timeline a blue as well*/
+  --decorator-border: 2px solid #f5c056; /* Make timeline a blue as well*/
 }
 
 .details .place {
@@ -85,7 +85,7 @@ sup {
 
 /* Make little circle outline be a light blue */
 .decorator::after {
-  background-color: #08306b;
+  background-color: #d4d5d6;
 }
 
 /* Remove the fake bullets from lists */
@@ -94,7 +94,7 @@ sup {
 }
 
 .skill-bar {
-  color: white;
+  color: black;
   padding: 0.1rem 0.25rem;
   margin-top: 3px;
   position: relative;
